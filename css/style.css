@@ -1,0 +1,381 @@
+@font-face {
+    src: url(../Gilroy-Light.otf);
+    font-family: Gilroy;
+}
+
+@font-face {
+    src: url(../Gilroy-ExtraBold.otf);
+    font-family: GilroyBold;
+}
+
+p {
+    font-size: small;
+}
+
+
+body {
+    font-family: Gilroy;
+}
+
+.wrapper {
+    margin: 0rem 10rem 0rem 10rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+
+.bold {
+    display: inline;
+    font-family: GilroyBold;
+    color: #25A4AD;
+}
+
+.bold-normal{
+    display: inline;
+    font-family: GilroyBold;
+}
+
+.thin {
+    display: inline;
+}
+
+nav {
+    display: grid;
+    padding: 1rem 5rem 1rem 5rem;
+    grid-template-columns: 600px 170px;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    flex-grow: 1;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.nav-cte {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.title {
+    padding: 1rem 5rem 1rem 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.col-title {
+    padding: 5rem 0rem 5rem 0rem;
+}
+
+
+/* .col-title-bottom{
+   max-width: 80%;
+} */
+
+.title-image {
+    width: 70%;
+}
+
+#brands {
+    padding: 4rem 5rem 4rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F8F8F8;
+}
+
+.brand-img {
+    width: 12%;
+}
+
+#services {
+    padding: 4rem 5rem 3rem 5rem;
+    text-align: center;
+}
+
+.headings {
+    text-align: center;
+}
+
+.headings-par {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 500px;
+}
+
+.image-grid {
+    padding: 2rem 0rem 0rem 0rem;
+    display: inline-grid;
+    grid-template-columns: 400px 400px;
+    grid-gap: 40px;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.item-h3 {
+    display: inline-block;
+    position: absolute;
+    z-index: 3;
+    color: #F8F8F8;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.image-grid-right {
+    margin-top: 60px;
+}
+
+.checked {
+    color: orange;
+
+}
+
+.rating {
+    z-index: 3;
+    margin-top: 80px;
+    position: absolute;
+}
+
+#features {
+    padding: 4rem 5rem 3rem 5rem;
+    text-align: center;
+    background-color: #F8F8F8;
+}
+
+.feature-grid {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 280px;
+    justify-content: center;
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.feature-grid-items {
+    border: 1px solid rgb(204, 204, 204);
+    padding: 5px 30px 5px 30px;
+}
+
+.feature-grid-items-underline {
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+.white {
+    background-color: white;
+    box-shadow: 0px 1px 9px rgb(190 187 187);
+    border: none !important;
+}
+
+#clients {
+    padding: 4rem 5rem 3rem 5rem;
+}
+
+.clients-grid {
+    margin: 2rem 0rem 2rem 0rem;
+    display: grid;
+    grid-template-columns: 400px 550px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.client-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.clients-grid-text {
+    background-color: #F8F8F8;
+    padding: 70px 20px 20px 20px;
+}
+
+.client-button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.client-button-ovel {
+    border-radius: 30px;
+    background-color: white;
+    color: #25A4AD;
+    border: 2px solid #25A4AD;
+}
+
+#pricing {
+    padding: 2rem 5rem 4rem 5rem;
+}
+
+.pricing-grid {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 470px;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.pricing-text {
+    text-align: initial !important;
+    padding-left: 3rem;
+}
+
+.pricing-adjust {
+    margin-top: 3rem;
+    border: 1px solid rgb(229, 229, 229);
+}
+
+.pricing-adjust-middle {
+    box-shadow: 0px 0px 10px 0px rgb(220 220 220);
+    margin-bottom: 3rem;
+}
+
+#faqs {
+    padding: 2rem 5rem 5rem 5rem;
+}
+
+.faqs-grid {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-rows: 170px 80px 70px 80px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.faqs-grid-item {
+    padding: 5px 40px 5px 40px;
+    display: grid;
+    grid-template-columns: 50px 400px;
+    grid-template-rows: 50px;
+    box-shadow: 0px 0px 17px 0px rgb(220 220 220);
+
+}
+
+#footer-section {
+    padding: 3rem 5rem 3rem 5rem;
+    background-color: #313131;
+}
+
+.headings-footer {
+    margin-top: 2rem;
+    text-align: center;
+    color: #F8F8F8;
+}
+
+.footer-grid {
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns: 300px 150px 150px 150px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-grid-item {
+    color: #F8F8F8;
+}
+
+.footer {
+    margin-top: 5rem;
+    text-align: center;
+    color: #F8F8F8;
+}
+
+.nav-button{
+    background-color: white;
+    color: #25A4AD;
+    border: 1px solid #25A4AD;
+    width: 100px; 
+    height: 40px;
+}
+
+.blue{
+    color: #25A4AD;
+}
+
+.title-button{
+    margin: 10px;
+    width: 150px; 
+    height: 40px;
+}
+
+.button-border{
+    background-color: white;
+    color: #25A4AD;
+    border: 1px solid #25A4AD;
+}
+
+.service-btn{
+    background-color: white;
+    color: #25A4AD;
+    border: 1px solid #25A4AD;
+    width: 150px; 
+    height: 40px;
+}
+.explore-btn{
+    background-color: #F8F8F8;
+    color: #25A4AD;
+    border: 1px solid #25A4AD;
+    width: 150px; 
+    height: 40px;
+}
+
+.pricing-button{
+    margin-top: 40px;
+    background-color: white;
+    color: #25A4AD;
+    border: 1px solid #25A4AD;
+    width: 180px;
+    height: 40px;
+}
+
+.pricing-button-middle{
+    margin-top: 40px;
+    background-color: #25A4AD;
+    border: 1px solid #25A4AD;
+    color: white;
+    width: 180px;
+    height: 40px;
+}
+
+.get-started{
+    background-color: #25A4AD;
+    border: 1px solid #25A4AD;
+    color: white;
+    box-shadow: -1px 15px 11px 0px rgb(220 220 220);
+}
+
+.footer-button{
+    margin-top: 40px;
+    background-color: #313131; 
+    color: white;
+    border: 1px solid white;
+    width: 160px;
+    height: 50px;
+}
+
